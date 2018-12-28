@@ -18,6 +18,11 @@ h3 {
   text-transform: uppercase;
 }
 
+img {
+  height: 100px;
+  width: 100px;
+}
+
 /*=================================
             HOME
 =================================*/
@@ -47,6 +52,10 @@ h3 {
   font-size: 55px;
   font-weight: 700;
   margin: 20px 0 20px 0;
+}
+
+.underline {
+  border-top: 3px solid black;
 }
 
 /*=================================
@@ -118,6 +127,16 @@ h3 {
 /*=================================
             ABOUT
 =================================*/
+#about-bg-diagonal {
+  width: 50%;
+  height: 700px;
+  float: right;
+  background-image: url(../img/about1.gif);
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent;
+  background-size: 60%;
+}
+
 #about-content-box {
   float: left;
   height: 700px;
