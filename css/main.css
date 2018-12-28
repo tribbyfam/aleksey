@@ -131,10 +131,9 @@ img {
   width: 50%;
   height: 700px;
   float: right;
-  background-image: url(../img/about1.gif);
+  background-image: url(../img/aboutBW.jpg);
   border-left: 200px solid #fff;
   border-top: 700px solid transparent;
-  background-size: 60%;
 }
 
 #about-content-box {
