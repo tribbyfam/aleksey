@@ -228,4 +228,5 @@ img {
 
 .img-wrapper img:hover {
   transform: scale(2);
+  cursor: zoom-in;
 }
