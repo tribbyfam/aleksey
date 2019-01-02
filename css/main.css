@@ -32,7 +32,7 @@ img {
 
 #home-cover {
   height: 100%;
-  background-image: url(../img/ice_goal.jpeg);
+  background-image: url(../img/hero.jpg);
 }
 
 #home-content-box {
@@ -48,7 +48,7 @@ img {
 }
 
 #home-heading h3 {
-  color: rgb(214, 13, 13);
+  color: #fff;
   font-size: 55px;
   font-weight: 700;
   margin: 20px 0 20px 0;
@@ -229,4 +229,9 @@ img {
 .img-wrapper img:hover {
   transform: scale(2);
   cursor: zoom-in;
+}
+
+
+.content-box-gallery {
+  background-color: #fff;
 }

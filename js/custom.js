@@ -18,3 +18,9 @@ $(function () {
     }
   });
 });
+/*======================= 
+      Gallery      
+========================*/
+$(function () {
+  $("#gallery-pics").owlCarousel();
+});
