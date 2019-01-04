@@ -22,5 +22,11 @@ $(function () {
       Gallery      
 ========================*/
 $(function () {
-  $("#gallery-pics").owlCarousel();
+  $("#gallery-pics").owlCarousel({
+    items: 3,
+    autoplay: true,
+    mergeFit: true,
+    smartSpeed: 700,
+    loop: true
+  });
 });
