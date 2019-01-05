@@ -31,3 +31,16 @@ $(function () {
     autoplayHoverPause: true
   });
 });
+/*======================= 
+      Testimonials      
+========================*/
+$(function () {
+  $("#customers-testimonials").owlCarousel({
+    items: 1,
+    autoplay: true,
+    mergeFit: true,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true
+  });
+});
