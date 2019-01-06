@@ -333,3 +333,19 @@ h4.gallery-pic-info {
 .testimonial-author strong {
   display: block;
 }
+
+/*=================================
+            Clinics
+=================================*/
+.content-underline {
+  width: 100px;
+  height: 3px;
+  background-color: #fff;
+  margin: auto 0 30px auto;
+}
+
+.clinics-box {
+  border: 3px solid #fff;
+  padding: 40px 120px;
+  margin: 10px 0;
+}
