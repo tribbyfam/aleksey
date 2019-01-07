@@ -349,3 +349,25 @@ h4.gallery-pic-info {
   padding: 40px 120px;
   margin: 10px 0;
 }
+
+h4.clinics-title {
+  display: inline-block;
+  padding-top: 7px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  letter-spacing: 1.5px;
+}
+
+ul.clinics-spec {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0 60px 0;
+}
+
+ul.clinics-spec li p {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
