@@ -2,6 +2,7 @@
 html,
 body {
   height: 100%;
+  background-color: #efeff0;
 }
 
 body {
@@ -48,7 +49,7 @@ img {
 }
 
 #home-heading h3 {
-  color: #fff;
+  color: #efeff0;
   font-size: 55px;
   font-weight: 700;
   margin: 20px 0 20px 0;
@@ -72,7 +73,7 @@ img {
             BUTTONS (generic)
 =================================*/
 .btn-general {
-  border-color: #fff;
+  border-color: #efeff0;
   border-width: 2px;
   border-radius: 0;
   padding: 12px 26px 12px 26px;
@@ -82,13 +83,13 @@ img {
 }
 
 .btn-white {
-  border-color: #fff;
-  color: #fff;
+  border-color: #efeff0;
+  color: #efeff0;
 }
 
 .btn-white:hover,
 .btn-white:focus {
-  background-color: #fff;
+  background-color: #efeff0;
   color: #41464b;
 }
 
@@ -132,7 +133,7 @@ img {
   height: 700px;
   float: right;
   background-image: url(../img/aboutBW2.jpg);
-  border-left: 200px solid #fff;
+  border-left: 200px solid #efeff0;
   border-top: 700px solid transparent;
 }
 
@@ -169,7 +170,7 @@ img {
 =================================*/
 .content-box {
   padding: 60px 0 60px 0;
-  background-color: #41464b;
+  background-color: black;
   color: #fff;
 }
 
@@ -233,7 +234,7 @@ img {
 
 
 .content-box-gallery {
-  background-color: #fff;
+  background-color: #efeff0;
 }
 
 /*=================================
@@ -241,6 +242,11 @@ img {
 =================================*/
 .gallery-pic {
   margin: 0 10px;
+}
+
+.gallery-pic img {
+  height: 280px;
+  widows: 500px;
 }
 
 .gallery-info {
@@ -272,15 +278,15 @@ h4.gallery-pic-info {
 }
 
 .social-icon i {
-  font-size: 17px;
+  font-size: 25px;
 }
 
-.icon-gray i {
-  color: #64707b;
+.icon-red i {
+  color: rgb(214, 13, 13);
 }
 
 .social-icon i:hover {
-  color: rgb(214, 13, 13);
+  color: #41464b;
 }
 
 /*=================================
@@ -340,24 +346,26 @@ h4.gallery-pic-info {
 .content-underline {
   width: 100px;
   height: 3px;
-  background-color: #fff;
+  background-color: rgb(214, 13, 13);
   margin: auto 0 30px auto;
 }
 
 .clinics-box {
-  border: 3px solid #fff;
+  border: 3px solid #efeff0;
   padding: 40px 120px;
   margin: 10px 0;
 }
 
 h4.clinics-title {
   display: inline-block;
-  padding-top: 7px;
+  padding: 7px 17px;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
   margin: 0 0 10px 0;
   letter-spacing: 1.5px;
+  background-color: rgb(214, 13, 13);
+  color: #efeff0;
 }
 
 ul.clinics-spec {
