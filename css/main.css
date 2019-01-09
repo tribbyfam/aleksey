@@ -462,3 +462,38 @@ form .form-control {
 #footer-menu a:hover {
   color: #41464b;
 }
+
+/*=================================
+            Navigation
+=================================*/
+.navbar {
+  padding: 20px 0;
+}
+
+.alex-top-nav {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 7px 0;
+  color: #efeff0;
+}
+
+.aleksey-nav-wrapper {
+  padding: 0 85px;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.navbar-nav>li>a {
+  color: #efeff0;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+  background: none;
+  color: #d60d0d;
+}
