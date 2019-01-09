@@ -497,3 +497,17 @@ form .form-control {
   background: none;
   color: #d60d0d;
 }
+
+.navbar-toggle {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #efeff0;
+  border-radius: 3px;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #efeff0;
+}
+
+.navbar-collapse {
+  max-height: none !important;
+}
