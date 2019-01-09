@@ -95,7 +95,7 @@ img {
 
 .btn-red {
   border-color: rgb(214, 13, 13);
-  color: rgb(214, 13, 13);
+  color: #41464b;
 }
 
 .btn-red:hover,
@@ -378,4 +378,43 @@ ul.clinics-spec li p {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+/*=================================
+            Contact
+=================================*/
+footer {
+  padding: 30px;
+  border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+  color: rgb(214, 13, 13);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#contact-left p {
+  color: #41464b;
+  margin-bottom: 30px;
+}
+
+address {
+  color: #41464b;
+  font-size: 17px;
+}
+
+address strong,
+#phone-fax-email strong {
+  letter-spacing: 1px;
+}
+
+form .form-control {
+  background: transparent;
+  border-radius: 0;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 8px 16px;
+  margin-bottom: 20px;
 }
