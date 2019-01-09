@@ -468,6 +468,7 @@ form .form-control {
 =================================*/
 .navbar {
   padding: 20px 0;
+  transition: all .5s ease-in-out;
 }
 
 .alex-top-nav {
@@ -510,4 +511,8 @@ form .form-control {
 
 .navbar-collapse {
   max-height: none !important;
+}
+
+.alex-top-nav ul.navbar-nav>li.active>a {
+  color: #d60d0d;
 }

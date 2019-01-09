@@ -44,3 +44,15 @@ $(function () {
     autoplayHoverPause: true
   });
 });
+/*=================================
+            Navigation
+=================================*/
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() < 50) {
+      $("nav").removeClass("alex-top-nav");
+    } else {
+      $("nav").addClass("alex-top-nav");
+    }
+  });
+});
