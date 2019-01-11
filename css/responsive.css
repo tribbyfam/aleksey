@@ -1,0 +1,30 @@
+/*========================================
+            Bootstrap media query
+=========================================*/
+
+/* Large divices */
+@media(min-width: 1200px) {
+  /* OK */
+}
+
+/* Medium devices */
+@media(min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    background: rgba(0, 0, 0, .7);
+    padding: 0;
+  }
+
+  .navbar-nav {
+    float: left;
+  }
+
+  .aleksey-nav-wrapper {
+    padding: 0;
+  }
+}
+
+/* Small devices */
+@media(min-width: 768px) and (max-width: 991px) {}
+
+/* Extra Small devices */
+@media(max-width: 767px) {}
