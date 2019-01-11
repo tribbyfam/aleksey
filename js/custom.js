@@ -51,8 +51,10 @@ $(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() < 50) {
       $("nav").removeClass("alex-top-nav");
+      $("#back-to-top").fadeOut();
     } else {
       $("nav").addClass("alex-top-nav");
+      $("#back-to-top").fadeIn();
     }
   });
 });

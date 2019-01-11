@@ -104,6 +104,15 @@ img {
   color: #fff;
 }
 
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  display: none;
+}
+
 /*=================================
             ANIMATE
 =================================*/
