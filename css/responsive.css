@@ -7,7 +7,9 @@
   /* OK */
 }
 
-/* Medium devices */
+/*====================
+    MEDIUM devices 
+ =====================*/
 @media(min-width: 992px) and (max-width: 1199px) {
   .navbar {
     background: rgba(0, 0, 0, .7);
@@ -27,7 +29,9 @@
   }
 }
 
-/* Small devices */
+/*====================
+    SMALL devices 
+ =====================*/
 @media(min-width: 768px) and (max-width: 991px) {
   .navbar {
     background: rgba(0, 0, 0, .7);
@@ -43,7 +47,7 @@
   }
 
   .clinics-box {
-    padding: 20px 30px;
+    padding: 20px 20px;
   }
 
   .container {
@@ -54,6 +58,18 @@
   ul.clinics-spec {
     margin: 20px 0;
   }
+
+  /* clinics section */
+  .clinics-box h4,
+  .clinics-box ul li p {
+    font-size: 15px;
+  }
+
+  /* gallery section */
+  .gallery-info h4 {
+    font-size: 15px;
+  }
+
 
   /* about section remove diagonal border */
   #about-bg-diagonal {

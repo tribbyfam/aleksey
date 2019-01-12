@@ -95,7 +95,7 @@ img {
 
 .btn-red {
   border-color: #d60d0d;
-  color: #41464b;
+  color: #d60d0d;
 }
 
 .btn-red:hover,
@@ -202,7 +202,7 @@ img {
             STUDENTS
 =================================*/
 .student-item {
-  padding: 20px 0 20px 0;
+  padding: 22px 0;
   margin-bottom: 20px;
   cursor: pointer;
 }
@@ -212,7 +212,7 @@ img {
   padding: 0;
   border: 2px solid rgb(41, 41, 41);
   margin-right: 20px;
-  height: 100px;
+  height: 110px;
   widows: 100px;
   text-align: center;
 }
@@ -487,7 +487,7 @@ form .form-control {
 }
 
 .aleksey-nav-wrapper {
-  padding: 0 85px;
+  padding: 0 55px;
 }
 
 .navbar-nav {
@@ -524,4 +524,9 @@ form .form-control {
 
 .alex-top-nav ul.navbar-nav>li.active>a {
   color: #d60d0d;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
 }
