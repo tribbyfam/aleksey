@@ -197,7 +197,30 @@
 }
 
 /* Extra Small devices */
-@media(max-width: 480px) {}
+@media(max-width: 480px) {
+
+  /* outstanding students section */
+  .student-item-pic img {
+    height: 90px;
+    width: 80px;
+  }
+
+  /* about section */
+  #about-content-box-inner .content-title h3 {
+    margin-top: 30px;
+  }
+
+  /* clinics section */
+  .clinics-box {
+    padding: 30px 30px;
+  }
+}
 
 /* Extra Small devices */
-@media(max-width: 320px) {}
+@media(max-width: 320px) {
+  .student-item-pic img {
+    height: 90px;
+    width: 80px;
+    margin-right: 15px;
+  }
+}
