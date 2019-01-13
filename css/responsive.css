@@ -123,6 +123,10 @@
     margin: 0 auto;
   }
 
+  .content-title h3 {
+    font-size: 26px;
+  }
+
   .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -135,7 +139,7 @@
 
   /* buttons */
   .btn-general {
-    padding: 6 22px;
+    padding: 6px 22px 6px 22px;
     font-size: 14px;
   }
 
@@ -167,6 +171,28 @@
 
   form .form-control {
     margin-bottom: 10px;
+  }
+
+  /* gallery */
+  h4.gallery-pic-info {
+    font-size: 15px;
+  }
+
+  /* testimonials */
+  .testimonial blockquote {
+    padding: 6px 45px;
+  }
+
+  .testimonial blockquote:before {
+    left: 10px;
+  }
+
+  .testimonial blockquote:after {
+    right: 10px;
+  }
+
+  .testimonial blockquote {
+    font-size: 14px;
   }
 }
 
