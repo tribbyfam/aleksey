@@ -100,7 +100,9 @@
   }
 }
 
-/* Extra Small devices */
+/*====================
+    EXTRA SMALL devices 
+ =====================*/
 @media(max-width: 767px) {
   .navbar {
     background: rgba(0, 0, 0, .7);
@@ -196,8 +198,14 @@
   }
 }
 
-/* Extra Small devices */
+/*====================
+    EXTRA EXTRA SMALL devices 
+ =====================*/
 @media(max-width: 480px) {
+  .content-title h3 {
+    font-size: 24px;
+    margin-bottom: 22px;
+  }
 
   /* outstanding students section */
   .student-item-pic img {
@@ -214,6 +222,22 @@
   .clinics-box {
     padding: 30px 30px;
   }
+
+  /* outstanding students */
+  .student-item {
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+
+  /* footer */
+  #footer-copyrights p {
+    font-size: 14px;
+  }
+
+  #contact-left h3,
+  #contact-right h3 {
+    font-size: 22px;
+  }
 }
 
 /* Extra Small devices */
@@ -222,5 +246,28 @@
     height: 90px;
     width: 80px;
     margin-right: 15px;
+  }
+
+  /* outstanding students */
+  .student-item {
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+
+  /* testimonials */
+  .testimonial img {
+    max-width: 80px;
+  }
+
+  .testimonial blockquote {
+    padding: 6px 30px;
+  }
+
+  .testimonial blockquote:before {
+    left: 7px;
+  }
+
+  .testimonial blockquote:after {
+    right: 7px;
   }
 }
