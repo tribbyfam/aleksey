@@ -45,7 +45,6 @@ img {
 #home-content-box-inner {
   display: table-cell;
   vertical-align: middle;
-  /* text-align: center;*/
 }
 
 #home-heading h3 {
@@ -141,7 +140,7 @@ img {
   width: 50%;
   height: 700px;
   float: right;
-  background-image: url(../img/aboutBW2.jpg);
+  background-image: url(../img/aboutBW.jpg);
   border-left: 200px solid #efeff0;
   border-top: 700px solid transparent;
 }

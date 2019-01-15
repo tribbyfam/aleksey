@@ -207,6 +207,10 @@
     margin-bottom: 22px;
   }
 
+  #about .content-title-underline {
+    margin: 0 0 20px 0;
+  }
+
   /* outstanding students section */
   .student-item-pic img {
     height: 90px;
@@ -216,6 +220,14 @@
   /* about section */
   #about-content-box-inner .content-title h3 {
     margin-top: 30px;
+  }
+
+  #about-bg-diagonal {
+    height: 300px;
+  }
+
+  #about-desc p {
+    margin-bottom: 15px;
   }
 
   /* clinics section */
@@ -242,6 +254,14 @@
 
 /* Extra Small devices */
 @media(max-width: 320px) {
+  p {
+    font-size: 14px;
+  }
+
+  .content-title h3 {
+    font-size: 22px;
+  }
+
   .student-item-pic img {
     height: 90px;
     width: 80px;
