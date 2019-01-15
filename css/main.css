@@ -379,13 +379,21 @@ h4.clinics-title {
 ul.clinics-spec {
   list-style: none;
   padding-left: 0;
-  margin: 20px 0 60px 0;
+  margin: 20px 0 45px 0;
 }
 
 ul.clinics-spec li p {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+#clinics .content-box {
+  padding-bottom: 20px;
+}
+
+#camps .content-box {
+  padding-top: 20px;
 }
 
 /*=================================
