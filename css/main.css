@@ -151,7 +151,7 @@ img {
 }
 
 #about-content-box-outer {
-  widows: 100%;
+  width: 100%;
   height: 100%;
   display: table;
 }
@@ -254,7 +254,7 @@ img {
 
 .gallery-pic img {
   height: 280px;
-  widows: 500px;
+  width: 500px;
 }
 
 .gallery-info {
@@ -323,7 +323,7 @@ h4.gallery-pic-info {
   font-style: normal;
   line-height: 1;
   width: 30px;
-  height: 30;
+  height: 30px;
   position: absolute;
   color: lightgrey;
 }
