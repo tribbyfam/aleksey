@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- favicon-->
+  <link rel="icon" type="image/x-icon" href="img/player2.png" />
+
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet" />
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+
+  <!-- style css -->
+  <link rel="stylesheet" href="css/main.css" />
+
+  <title>Summer Camp Form</title>
+</head>
+
+<body>
+  <section id="camp-form">
+    <div class="container">
+      <div class="camp-container-box">
+        <h3 class="text-center">Student's information</h3>
+        <div class="content-title-underline"></div>
+        <form action="#">
+          <div class="form-row">
+            <div class="col-md-4">
+              <label for="first-name">First Name</label>
+              <input type="text" class="form-control" id="first-name" placeholder="First Name">
+            </div>
+
+            <div class="col-md-4">
+              <label for="last-name">Last Name</label>
+              <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+            </div>
+
+            <div class="col-md-4">
+              <label for="age">Age</label>
+              <input type="text" class="form-control" id="age" placeholder="Age">
+            </div>
+
+            <div class="col-md-4">
+              <label for="tier">Organization</label>
+              <input type="text" class="form-control" id="organization" placeholder="Organization">
+            </div>
+            <div class="col-md-4">
+              <label for="tier">Tier</label>
+              <select class="form-control" id="jersey-size">
+                <option>AAA</option>
+                <option>AA</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+              </select>
+            </div>
+
+            <div class="col-md-4">
+              <label for="level">Level</label>
+              <select class="form-control" id="level">
+                <option>Mite</option>
+                <option>Squirt</option>
+                <option>PeeWee</option>
+                <option>Bantam</option>
+                <option>Midget</option>
+                <option>Junior</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <label for="jersey-size">Jersey Size: Adult</label>
+            <select class="form-control" id="jersey-size">
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Large</option>
+              <option>X Large</option>
+              <option>XX Large</option>
+              <option>Goalie</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div id="waiver">
+        <h3>Waiver Information:</h3>
+        <p id="waiver">
+          <strong>Coach Nikiforov </strong>and/or <strong>"The RINX" </strong>are not liable for any injury
+          sustained during any one of these events either on or off ice. A medical certificate is required if the
+          applicant suffers from any allergies or if he/she requires medical attention of any kind. I
+          (parent/guaridan/self-insured) agree that I shall provide health insurance to cover personal injury and
+          property amage sustained while participating in the activities of or while on the premises of <strong>"The
+            RINX".</strong>I acknowledge that ice hockey is a high risk activity and I give approval for my childto
+          participate in all activities of the <strong><em>Aleksey Nikiforov's Summer Hockey School</em></strong>
+          bothon and off the ice. I sassume all risks and forever absolve, indemnify and hold harmless, the <strong><em>Aleksey
+              Nikiforov's Summer Hockey School, Aleksey Nikiforov, "The RINX" </em></strong>and all on/off ice
+          Coach's/assistants and any of its employees in the event of an accident or loss however caused. I certify
+          by my signature thta the registrant is in good health and acknowledge that I have read and understand all
+          the conditions contained in this application and agree to abide by them.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="camp-container-box">
+        <form action="#">
+          <div class="col-md-6">
+            <label for="first-name">Parent's of Guardian's Signature</label>
+            <input type="text" class="form-control" id="signature" placeholder="Signature">
+          </div>
+          <div class="col-md-6">
+            <label for="address">Date</label>
+            <input type="datetime" class="form-control" id="date" placeholder="Today's date">
+          </div>
+          <div class="col-md-6">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Address">
+          </div>
+
+        </form>
+      </div>
+      <button class="btn btn-lg btn-general hidden-print" onclick="myFunction()"><span aria-hidden="true"></span>
+        Print</button>
+    </div>
+
+
+
+  </section>
+
+  <!--bootstrap JS-->
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+
+  <!--custom JS-->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

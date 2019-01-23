@@ -541,3 +541,10 @@ form .form-control {
   height: 40px;
   width: 40px;
 }
+
+/*=====================================
+        Camp Form
+=====================================*/
+.camp-container-box {
+  height: 300px;
+}

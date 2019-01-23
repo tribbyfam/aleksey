@@ -99,3 +99,9 @@ $(function () {
     $(".navbar-toggle").click();
   });
 });
+
+
+//print function
+function myFunction() {
+  window.print();
+}
