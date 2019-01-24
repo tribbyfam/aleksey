@@ -95,6 +95,7 @@ img {
 .btn-red {
   border-color: #d60d0d;
   color: #d60d0d;
+  display: inline-block;
 }
 
 .btn-red:hover,
