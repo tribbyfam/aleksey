@@ -171,10 +171,18 @@ img {
 }
 
 #about-desc p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: #41464b;
   line-height: 1.4em;
 }
+
+.accomp-list {
+  line-height: 1.3em;
+  font-size: 1.1em;
+  float: left;
+  position: relative;
+}
+
 
 /*=================================
             STUDENTS generic
@@ -507,7 +515,7 @@ form .form-control {
   float: right;
 }
 
-.navbar-nav > li > a {
+.navbar-nav>li>a {
   color: #efeff0;
   font-size: 1.1em;
   text-transform: uppercase;
@@ -515,8 +523,8 @@ form .form-control {
   font-weight: 700;
 }
 
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
   background: none;
   color: #d60d0d;
 }
@@ -535,7 +543,7 @@ form .form-control {
   max-height: none !important;
 }
 
-.alex-top-nav ul.navbar-nav > li.active > a {
+.alex-top-nav ul.navbar-nav>li.active>a {
   color: #d60d0d;
 }
 
