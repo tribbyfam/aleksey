@@ -74,9 +74,11 @@ $(function () {
 $(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() < 50) {
+      //hide nav
       $("nav").removeClass("alex-top-nav");
       $("#back-to-top").fadeOut();
     } else {
+      //show nav
       $("nav").addClass("alex-top-nav");
       $("#back-to-top").fadeIn();
     }
@@ -86,6 +88,7 @@ $(function () {
 $(function () {
   $("a.smooth-scroll").click(function () {
     event.preventDefault();
+    // get/return id like #abot, or #students...
     var section = $(this).attr("href");
     $('html, body').animate({
       scrollTop: $(section).offset().top - 64
