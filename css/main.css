@@ -174,6 +174,7 @@ img {
 
 #about-desc p {
   margin: 0;
+  padding: 0;
   font-size: 15px;
   color: #41464b;
   line-height: 1.4em;
@@ -401,6 +402,8 @@ ul.clinics-spec {
 
 ul.clinics-spec li p {
   font-weight: 400;
+  color: #efeff0;
+  padding: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -567,24 +570,19 @@ form .form-control {
   padding: 10px;
 }
 
-#camp-form,
-p {
+#camp-form #waiver p {
   color: #41464b;
   padding: 10px;
   font-size: .95em;
+  padding: 0 80px;
 }
 
 #waver,
-h4 {
+h5 {
   margin: 10px;
   padding: 0 70px;
   font-size: 20px;
   text-transform: uppercase;
-}
-
-#waver,
-p {
-  padding: 0 80px;
 }
 
 .form-label {
@@ -592,5 +590,5 @@ p {
 }
 
 .form-btns {
-  margin-top: 110px;
+  margin-top: 110p;
 }
