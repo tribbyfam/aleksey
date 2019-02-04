@@ -564,4 +564,33 @@ form .form-control {
 =====================================*/
 .camp-container-box {
   height: 300px;
+  padding: 10px;
+}
+
+#camp-form,
+p {
+  color: #41464b;
+  padding: 10px;
+  font-size: .95em;
+}
+
+#waver,
+h4 {
+  margin: 10px;
+  padding: 0 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#waver,
+p {
+  padding: 0 80px;
+}
+
+.form-label {
+  font-size: 15px;
+}
+
+.form-btns {
+  margin-top: 110px;
 }
